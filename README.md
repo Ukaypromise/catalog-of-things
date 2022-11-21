@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. In your terminal, `cd` to the directory where you want to copy this project.
 2. Clone this repo to your local machine
-  - `git clone https://github.com/Agetuni/catalog_of_my_things ` 
+  - `git clone https://github.com/Ukaypromise/catalog-of-things ` 
 3. Run `cd catalog_of_my_things/src`
 
 ### Install
