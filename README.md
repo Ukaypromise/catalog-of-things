@@ -1,56 +1,58 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Catalog Of My Things
 
-> Description the project.
+## Introduction
 
+> coming soon
+
+### Diagram 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+  - Ruby
+  - postgres
+  - rspec
+## Screenshots
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
+ -  coming soon 
+## Demo Video
+-   [Video](https://youtu.be/O5Cj5-eBFNw)
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+* Ruby 
+* RSpec 
+
 ### Setup
+
+1. In your terminal, `cd` to the directory where you want to copy this project.
+2. Clone this repo to your local machine
+  - `git clone https://github.com/Agetuni/catalog_of_my_things ` 
+3. Run `cd catalog_of_my_things/src`
 
 ### Install
 
+* After completing the setup section, type `bundle install`
+
 ### Usage
+
+* When all the gems are installed, type `ruby main.rb` to run the app.
 
 ### Run tests
 
-### Deployment
-
-
+* Type `rspec` to run the tests.
 
 ## Authors
 
-👤 **Author1**
+👤  **Promise Uka** 
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Ukaypromise](https://github.com/Ukaypromise)
+- Twitter: [@PromiseUkay](https://twitter.com/PromiseUkay)
+- LinkedIn: [@promiseuka](https://www.linkedin.com/in/promiseuka/)
 
 ## 🤝 Contributing
 
@@ -64,12 +66,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Heartfelt thanks to Microverse
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is **MIT** licensed.
