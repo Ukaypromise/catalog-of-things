@@ -9,5 +9,6 @@ class Movie < Item
   end
 
   def can_be_archived?
+    super || @silet == true
   end
 end

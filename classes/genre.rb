@@ -1,4 +1,4 @@
-require_relative 'music_album'
+require_relative 'music'
 
 class Genre
   attr_accessor :name, :items, :id
@@ -11,5 +11,6 @@ class Genre
 
   def add_item(music)
     @items.push(music)
+    music.genre = self
   end
 end

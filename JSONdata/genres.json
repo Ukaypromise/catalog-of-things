@@ -1,0 +1,46 @@
+[
+  {
+    "genre_id" : 731,
+    "name" : "pop",
+    "Items" : [
+      {
+        "on_sportify" : true,
+        "publish_date" : "2020-01-01"
+      },
+      {
+        "on_sportify" : false,
+        "publish_date" : "1999-09-09"
+      }
+    ]
+  },
+  {
+    "genre_id" : 168,
+    "name" : "blues",
+    "Items" : [
+      {
+        "on_sportify" : false,
+        "publish_date" : "2001-12-30"
+      }
+    ]
+  },
+  {
+    "genre_id" : 211,
+    "name" : "base",
+    "Items" : [
+      {
+        "on_sportify" : true,
+        "publish_date" : "2022-09-08"
+      }
+    ]
+  },
+  {
+    "genre_id" : 132,
+    "name" : "pop",
+    "Items" : [
+      {
+        "on_sportify" : true,
+        "publish_date" : "2345-09-08"
+      }
+    ]
+  }
+]

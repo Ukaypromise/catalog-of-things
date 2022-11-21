@@ -1,10 +1,45 @@
+require_relative 'classes/item'
+require_relative 'classes/book'
+require_relative 'classes/label'
+require_relative 'classes/game'
+require_relative 'classes/author'
+require_relative 'classes/music'
+require_relative 'classes/genre'
+require_relative 'classes/movie'
+require_relative 'classes/source'
+require_relative 'validation'
+require_relative 'handler/handle_label'
+require_relative 'handler/handle_genre'
+require_relative 'handler/handle_author'
+require_relative 'handler/handle_source'
+
+require 'json'
 class App
+  include Validation
+  include HandleLabel
+  include HandleGenre
+  include HandleAuthor
+  include HandleSource
+
   def initialize
     @response = 0
+    @books = []
+    @games = []
+    @music_albums = []
+    @movies = []
+    @authors = []
+    @labels = []
+    @genres = []
+    @sources = []
+
+    load_labels
+    load_author
+    load_genres
+    load_sources
   end
 
   def menu_options
-    puts 'A BIG WELCOME TO MY CATALOG OF THINGS!'
+    puts 'WELCOME TO MY CATALOG OF THINGS!'
     while @response != 13
       puts(
         'Please choose an option by entering a number:

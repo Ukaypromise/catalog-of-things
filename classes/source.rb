@@ -9,6 +9,8 @@ class Source
     @items = []
   end
 
-  def add_item
+  def add_item(movie)
+    @items.push(movie)
+    movie.source = self
   end
 end
